@@ -64,6 +64,9 @@
 .line-height-136 {
     line-height: 136%;
 }
+.line-height-124{
+    line-height: 124%;
+}
 
 
 .header-button {
@@ -184,6 +187,74 @@ s {
 /* .left-after{
     right:50px;
 } */
+.footer-bg{
+    background-image: url(/assets/images/png/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -196,7 +267,9 @@ s {
 .mt-63{
     margin-top: 63px;
 }
-
+.mt-108{
+    margin-top: 108px !important; 
+}
 
 
 
@@ -219,7 +292,9 @@ s {
 .pt-44 {
     padding-top: 44px;
 }
-
+.pt-100{
+    padding-top: 100px;
+}
 
 
 
