@@ -4,14 +4,14 @@
     --fw-md: 500;
     --fw-sm: 400;
 
-    --fs-5xl: 70px;
-    --fs-4xl: 50px;
-    --fs-3xl: 30px;
-    --fs-2xl: 25px;
-    --fs-xl: 22px;
-    --fs-lg: 20px;
-    --fs-md: 18px;
-    --fs-sm: 16px;
+    --fs-5xl: 68px;
+    --fs-4xl: 48px;
+    --fs-3xl: 28px;
+    --fs-2xl: 23px;
+    --fs-xl: 20px;
+    --fs-lg: 18px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
 
     --text-grey: #B2CBDC;
     --text-navy: #001D49;
@@ -76,4 +76,18 @@
 
 .fs_sm {
     font-size: var(--fs-sm);
+}
+
+@media(min-width:768px) {
+    :root {
+
+        --fs-5xl: 70px;
+        --fs-4xl: 50px;
+        --fs-3xl: 30px;
+        --fs-2xl: 25px;
+        --fs-xl: 22px;
+        --fs-lg: 20px;
+        --fs-md: 18px;
+        --fs-sm: 16px;
+    }
 }
