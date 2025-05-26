@@ -1,0 +1,59 @@
+:root {
+    --fw-lg: 600;
+    --fw-md: 500;
+    --fw-sm: 400;
+
+    --fs-5xl: 70px;
+    --fs-4xl: 50px;
+    --fs-3xl: 30px;
+    --fs-2xl: 25px;
+    --fs-xl: 22px;
+    --fs-lg: 20px;
+    --fs-md: 18px;
+    --fs-sm: 16px;
+
+}
+
+.fw_lg {
+    font-weight: var(--fw-lg);
+}
+
+.fw_md {
+    font-weight: var(--fw-md);
+}
+
+.fw_sm {
+    font-weight: var(--fw-sm);
+}
+
+.fs_5xl {
+    font-size: var(--fs-5xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
