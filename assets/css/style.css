@@ -91,6 +91,7 @@ s {
 }
 
 .parent {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -122,14 +123,18 @@ s {
     grid-area: 2 / 3 / 3 /4;
 }
 
+.card1 {
+    width: 426px;
+    height: 511px;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #031227;
+}
 
-
-
-
-
-
-
-
+.section3{
+    padding-top: 125px;
+    padding-bottom: 130px;
+}
 
 
 
@@ -140,6 +145,10 @@ s {
 .mt-52 {
     margin-top: 52px;
 }
+
+
+
+
 
 /* padding property */
 .pt-265 {
@@ -157,9 +166,22 @@ s {
 .pt-28 {
     padding-top: 28px;
 }
+.pt-44{
+    padding-top: 44px;
+}
+
+
+
+
 
 
 /* max-width */
 .max-w-547 {
     max-width: 547px;
+}
+.w-117{
+    width: 117px;
+}
+.h-145{
+    height: 145px;
 }

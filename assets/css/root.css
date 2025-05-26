@@ -15,6 +15,11 @@
 
     --text-grey: #B2CBDC;
     --text-navy: #001D49;
+    --text-dark-grey: #B3B8BE;
+}
+
+.text_dark_grey {
+    color: var(--text-dark-grey);
 }
 
 .text_navy {
