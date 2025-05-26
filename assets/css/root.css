@@ -1,4 +1,5 @@
 :root {
+    --fw-xl: 700;
     --fw-lg: 600;
     --fw-md: 500;
     --fw-sm: 400;
@@ -12,6 +13,20 @@
     --fs-md: 18px;
     --fs-sm: 16px;
 
+    --text-grey: #B2CBDC;
+    --text-navy: #001D49;
+}
+
+.text_navy {
+    color: var(--text-navy);
+}
+
+.text_grey {
+    color: var(--text-grey);
+}
+
+.fw_xl {
+    font-weight: var(--fw-xl);
 }
 
 .fw_lg {
