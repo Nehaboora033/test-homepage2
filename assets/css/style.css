@@ -219,6 +219,54 @@ s {
 
 
 
+.accordion-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* 30px gap between accordion items */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.accordion-arrow {
+    transition: transform 0.3s ease;
+}
+
+.accordion-arrow.rotate {
+    transform: rotate(180deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 16px;
+    background-color: #000D1E;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.accordion-content.open {
+    padding: 16px;
+    max-height: 200px;
+    /* or adjust as needed */
+}
 
 /* margin property */
 

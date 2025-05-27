@@ -179,6 +179,33 @@
         <p class="font-family fw_md fs_3xl alert-dangerline-height-150 text-white max-w-768 text-center mx-auto">And
             this just the begining , the team is working on more suprises for our community. Buddybullies stronger
             together !!</p>
+        <div class="container">
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <div class="accordion-header bg_accordian_header text-light font-family fw_md fs_lg">
+                        What's the blockchain the buddybullies call home?
+                        <!-- <span class="accordion-arrow">&#9660;</span> -->
+                        <img src="./assets/images/svg/accordian-arrow.svg" alt="arrow" class="accordion-arrow">
+                    </div>
+                    <div class="accordion-content">
+                        <p class="font-family-mont line-height-100  fw_md fs_sm text_grey"> Hac varius turpis sit
+                            pulvinar lorem magna velit sit. Dapibus mattis adipiscing ornare arcu
+                            vitae enim. Proin turpis
+                            enim egestas sed in accumsan, feugiat neque turpis. Fringilla dui donec nullam faucibus
+                            vitae non, integer. Non.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
     </section>
     <section class="section6">
         <h2 class="font-family line-height-136 text-light fw_lg fs_4xl text-center mb-4">Our Team</h2>
@@ -240,6 +267,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
+    <script>
+        const headers = document.querySelectorAll('.accordion-header');
+
+        headers.forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                const arrow = header.querySelector('.accordion-arrow');
+
+                content.classList.toggle('open');
+                arrow.classList.toggle('rotate');
+            });
+        });
+    </script>
     <script src="./assets/js/script.js"></script>
 </body>
 

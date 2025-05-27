@@ -3,4 +3,3 @@ function menuIcon() {
     document.querySelector('nav').classList.toggle('activeNavBar');
 
 }
-console.log(menuIcon());

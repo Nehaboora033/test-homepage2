@@ -4,10 +4,10 @@
     --fw-md: 500;
     --fw-sm: 400;
 
-    --fs-5xl: 68px;
-    --fs-4xl: 48px;
-    --fs-3xl: 28px;
-    --fs-2xl: 23px;
+    --fs-5xl: 66px;
+    --fs-4xl: 46px;
+    --fs-3xl: 26px;
+    --fs-2xl: 22px;
     --fs-xl: 20px;
     --fs-lg: 18px;
     --fs-md: 16px;
@@ -15,9 +15,14 @@
 
     --text-grey: #B2CBDC;
     --text-navy: #001D49;
+    --bg-accordian-header:#031227;
     --text-dark-grey: #B3B8BE;
 }
 
+
+.bg_accordian_header{
+    background-color: var(--bg-accordian-header);
+}
 .text_dark_grey {
     color: var(--text-dark-grey);
 }
