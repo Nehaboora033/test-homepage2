@@ -12,8 +12,8 @@
 </head>
 
 <body class="bg-img">
-    <header class="header-background mb-91">
-        <nav class="pt-28">
+    <header class="header-background mb-200">
+        <nav class="pt-28 position-fixed top-0 z-3 w-100">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between ">
                     <a href="" class="text-white fs_xl fw_lg line-height-150 font-family">Logo</a>
@@ -23,11 +23,18 @@
                         <span></span>
                     </button>
                     <div class="d-flex gap-lg-80 gap-md-50 menu-list">
-                        <a href="" class="text-white fs_xl fw_lg line-height-150 font-family nav-content">Minting</a>
-                        <a href="" class="text-white fs_xl fw_lg line-height-150 font-family nav-content">Road Map</a>
-                        <a href="" class="text-white fs_xl fw_lg line-height-150 font-family  nav-content">Faq</a>
-                        <a href="" class="text-white fs_xl fw_lg line-height-150 font-family  nav-content">Team</a>
-                        <a href="" class="text-white fs_xl fw_lg line-height-150 font-family nav-content">Join Us</a>
+                        <a href=""
+                            class="text-white fs_md fw_md line-height-150 font-family nav-content transition">Minting</a>
+                        <a href=""
+                            class="text-white fs_md fw_md line-height-150 font-family nav-content transition">Road
+                            Map</a>
+                        <a href=""
+                            class="text-white fs_md fw_md line-height-150 font-family  nav-content transition">Faq</a>
+                        <a href=""
+                            class="text-white fs_md fw_md line-height-150 font-family  nav-content transition">Team</a>
+                        <a href=""
+                            class="text-white fs_md fw_md line-height-150 font-family nav-content transition">Join
+                            Us</a>
                     </div>
                 </div>
             </div>
@@ -37,39 +44,59 @@
                 <h2 class="text-light line-height-124 font-family  fw_sm fs_5xl line-height-124">Vitae nunc,
                     <span class="font-family  fw_xl fs_5xl text-light">blandit a odio</span>
                 </h2>
-                <p class="text_grey fw_md fs_lg font-family line-height-41"> Semper in egestas risus id tempus.
+                <p class="text_grey fw_md fs_lg font-family line-height-41 mt-4"> Semper in egestas risus id tempus.
                     Pellentesque dolor eros sollicitudin feugiat ut odio semper.
                     Mattis
                     fermentum eget ut
                     vestibulum dolor diam</p>
-                <button class="header-button text_navy fw_md fs_2xl font-family line-height-100 cursor">Get
+                <button class="header-button text_navy fw_md fs_2xl font-family line-height-100 cursor mt-5">Get
                     Started</button>
             </div>
         </div>
     </header>
     <section class="section2">
         <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-5">
-                    <img src="./assets/images/png/section2-img.png" alt="image" class="w-100">
+            <div class="row justify-content-between gap-4 gap-md-0">
+                <div class="col-md-6 col-12">
+                    <img src="./assets/images/png/section2-img.png" alt="image" class="w-100 cursor">
                 </div>
-                <div class="col-5 mt-auto">
-                    <p class="fw_lg fs_4xl font-family line-height-136 text-light">Mint Your Bat</p>
+                <div class="col-md-5 col-12  mt-auto">
+                    <p class="fw_lg fs_4xl font-family line-height-136 text-light text-center text-md-start">Mint Your
+                        Bat</p>
                     <div>
-                        <p class="text-light fw_md fs_3xl font-family line-height-136 ">Minting: 1,5 SOL</p>
-                        <del class="text_grey fw_sm fs_sm line-height-136 font-family"><s>Before 2 SOL</s></del>
+                        <p class="text-light fw_md fs_3xl font-family line-height-136 mt-5  text-center text-md-start">
+                            Minting: 1,5 SOL</p>
+                        <p class="text_grey fw_sm fs_sm line-height-136 font-family text-center text-md-start"><s>Before
+                                2 SOL</s></p>
                     </div>
                     <div>
-                        <p class="text-light fw_md fs_3xl font-family line-height-136 ">Whitelist: 0,88 SOL</p>
-                        <p class="text_grey fw_sm fs_sm line-height-136 font-family"><s>Before 1 SOL</s></p>
+                        <p class="text-light fw_md fs_3xl font-family line-height-136  mt-4 text-center text-md-start">
+                            Whitelist: 0,88 SOL</p>
+                        <p class="text_grey fw_sm fs_sm line-height-136 font-family text-center text-md-start"><s>Before
+                                1 SOL</s></p>
                     </div>
                     <button
-                        class="section2-button text_navy font-family line-height-100 fw_md fs_sm cursor mt-52">Coming
+                        class="section2-button text_navy font-family line-height-100 fw_md fs_sm cursor mt-52 transition d-block m-md-0 mx-auto">Coming
                         soon</button>
-                    <div class="d-flex gap-4 mt-52">
-                        <img src="./assets/images/svg/insta.svg" alt="instagram" class="cursor online-platform">
-                        <img src="./assets/images/svg/twitter.svg" alt="twitter" class="cursor online-platform ">
-                        <img src="./assets/images/svg/discord.svg" alt="discord" class="cursor online-platform">
+                    <div class="d-flex gap-4 mt-52 justify-content-md-start justify-content-center">
+                        <svg class="icon" width="33" height="33" viewBox="0 0 33 33" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.1287 10.8505C13.1663 10.8505 10.7488 13.268 10.7488 16.2304C10.7488 19.1927 13.1663 21.6102 16.1287 21.6102C19.091 21.6102 21.5085 19.1927 21.5085 16.2304C21.5085 13.268 19.091 10.8505 16.1287 10.8505ZM32.2642 16.2304C32.2642 14.0025 32.2844 11.7949 32.1593 9.57112C32.0342 6.98814 31.4449 4.69575 29.5561 2.80695C27.6633 0.914109 25.3749 0.328903 22.7919 0.20379C20.5641 0.0786771 18.3565 0.0988567 16.1327 0.0988567C13.9049 0.0988567 11.6972 0.0786771 9.47347 0.20379C6.89049 0.328903 4.59809 0.918145 2.70929 2.80695C0.816453 4.69979 0.231247 6.98814 0.106134 9.57112C-0.0189791 11.7989 0.00120046 14.0066 0.00120046 16.2304C0.00120046 18.4541 -0.0189791 20.6658 0.106134 22.8896C0.231247 25.4726 0.820489 27.765 2.70929 29.6538C4.60213 31.5466 6.89049 32.1318 9.47347 32.2569C11.7013 32.382 13.9089 32.3619 16.1327 32.3619C18.3605 32.3619 20.5682 32.382 22.7919 32.2569C25.3749 32.1318 27.6673 31.5426 29.5561 29.6538C31.449 27.7609 32.0342 25.4726 32.1593 22.8896C32.2884 20.6658 32.2642 18.4582 32.2642 16.2304ZM16.1287 24.508C11.5479 24.508 7.85103 20.8111 7.85103 16.2304C7.85103 11.6496 11.5479 7.95272 16.1287 7.95272C20.7094 7.95272 24.4063 11.6496 24.4063 16.2304C24.4063 20.8111 20.7094 24.508 16.1287 24.508ZM24.7453 9.54691C23.6758 9.54691 22.8121 8.68322 22.8121 7.61371C22.8121 6.54419 23.6758 5.68051 24.7453 5.68051C25.8148 5.68051 26.6785 6.54419 26.6785 7.61371C26.6788 7.86767 26.6291 8.1192 26.532 8.35389C26.435 8.58858 26.2926 8.80182 26.113 8.9814C25.9334 9.16098 25.7202 9.30336 25.4855 9.4004C25.2508 9.49744 24.9993 9.54723 24.7453 9.54691Z"
+                                fill="white" />
+                        </svg>
+                        <svg class="icon" width="36" height="29" viewBox="0 0 36 29" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M35.1586 3.80106C33.8959 4.36055 32.5396 4.73858 31.1136 4.90945C32.5849 4.02908 33.6857 2.64348 34.2105 1.01119C32.8281 1.83226 31.3153 2.4102 29.7376 2.71989C28.6766 1.58711 27.2714 0.836276 25.74 0.583975C24.2086 0.331673 22.6368 0.592015 21.2685 1.32458C19.9003 2.05715 18.8121 3.22095 18.1731 4.63531C17.534 6.04966 17.3798 7.63544 17.7343 9.14643C14.9334 9.0058 12.1933 8.27779 9.69197 7.00965C7.1906 5.74151 4.98384 3.96159 3.21489 1.7854C2.61004 2.82877 2.26225 4.03847 2.26225 5.3268C2.26158 6.48659 2.54718 7.62862 3.09374 8.65156C3.64029 9.6745 4.43088 10.5467 5.39538 11.1908C4.27682 11.1552 3.18294 10.853 2.20479 10.3093V10.4C2.20468 12.0266 2.76735 13.6032 3.79734 14.8623C4.82732 16.1213 6.26118 16.9852 7.85561 17.3074C6.81796 17.5882 5.73007 17.6296 4.67409 17.4283C5.12395 18.828 6.00022 20.0519 7.18024 20.9288C8.36026 21.8057 9.78495 22.2916 11.2549 22.3186C8.7596 24.2774 5.67797 25.3399 2.5057 25.3353C1.94377 25.3354 1.38231 25.3026 0.824219 25.237C4.04426 27.3073 7.79261 28.4061 11.6208 28.4018C24.5797 28.4018 31.664 17.6688 31.664 8.36012C31.664 8.0577 31.6565 7.75225 31.6429 7.44982C33.0208 6.45329 34.2103 5.21928 35.1555 3.8056L35.1586 3.80106Z"
+                                fill="white" />
+                        </svg>
+                        <svg class="icon" width="33" height="25" viewBox="0 0 33 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M27.9418 2.13431C25.8406 1.18671 23.5884 0.486304 21.2331 0.088036C21.2121 0.0840092 21.1904 0.0866042 21.171 0.0954621C21.1515 0.10432 21.1353 0.119002 21.1246 0.137476C20.8362 0.644238 20.5148 1.30481 20.2896 1.82668C17.7916 1.45346 15.2521 1.45346 12.7541 1.82668C12.5032 1.24832 12.2203 0.684373 11.9067 0.137476C11.8961 0.118775 11.88 0.10376 11.8606 0.0944359C11.8413 0.0851114 11.8195 0.0819205 11.7983 0.0852891C9.44435 0.483557 7.19207 1.18396 5.08949 2.13294C5.0714 2.14052 5.05607 2.15346 5.04554 2.17002C0.771712 8.45304 -0.399746 14.5809 0.175683 20.6318C0.177284 20.6466 0.181884 20.661 0.189204 20.674C0.196523 20.6869 0.206407 20.6983 0.218257 20.7073C2.71278 22.5235 5.49509 23.907 8.44868 24.7999C8.46927 24.8062 8.49129 24.8062 8.51187 24.7998C8.53245 24.7935 8.55063 24.781 8.56404 24.7642C9.19852 23.9127 9.76433 23.0132 10.2478 22.0683C10.2766 22.0134 10.2491 21.9475 10.1914 21.9255C9.30427 21.5914 8.44467 21.1882 7.62055 20.7197C7.60574 20.7113 7.59327 20.6993 7.58424 20.6848C7.57521 20.6703 7.56991 20.6538 7.56882 20.6368C7.56773 20.6198 7.57089 20.6028 7.578 20.5873C7.58511 20.5718 7.59596 20.5583 7.60957 20.548C7.78261 20.4203 7.95565 20.2871 8.12045 20.1539C8.13528 20.1419 8.15315 20.1343 8.17206 20.1319C8.19098 20.1294 8.21019 20.1323 8.22757 20.1402C13.6207 22.5627 19.4615 22.5627 24.7914 20.1402C24.8088 20.1318 24.8282 20.1286 24.8474 20.1308C24.8666 20.133 24.8848 20.1405 24.8999 20.1525C25.0647 20.2871 25.2364 20.4203 25.4108 20.548C25.4245 20.5581 25.4356 20.5714 25.4429 20.5868C25.4502 20.6021 25.4536 20.6191 25.4528 20.6361C25.452 20.6531 25.447 20.6696 25.4382 20.6842C25.4294 20.6988 25.4172 20.711 25.4025 20.7197C24.5813 21.1921 23.7271 21.5918 22.8303 21.9241C22.8165 21.9291 22.804 21.937 22.7935 21.9472C22.783 21.9575 22.7748 21.9698 22.7695 21.9835C22.7642 21.9971 22.7618 22.0117 22.7626 22.0264C22.7633 22.041 22.7672 22.0553 22.774 22.0683C23.2684 23.0118 23.8342 23.91 24.4563 24.7628C24.4692 24.7803 24.4873 24.7934 24.5079 24.8003C24.5286 24.8072 24.5508 24.8075 24.5717 24.8013C27.5303 23.9108 30.3172 22.5267 32.8145 20.7073C32.8266 20.6988 32.8369 20.6878 32.8444 20.675C32.852 20.6622 32.8568 20.648 32.8584 20.6332C33.5451 13.6374 31.7075 7.559 27.9844 2.17276C27.9753 2.15526 27.9602 2.14162 27.9418 2.13431ZM11.0539 16.9471C9.43061 16.9471 8.09161 15.479 8.09161 13.6786C8.09161 11.8768 9.40452 10.41 11.0539 10.41C12.7156 10.41 14.0423 11.8891 14.0162 13.6786C14.0162 15.4804 12.7033 16.9471 11.0539 16.9471ZM22.0063 16.9471C20.3816 16.9471 19.044 15.479 19.044 13.6786C19.044 11.8768 20.3555 10.41 22.0063 10.41C23.668 10.41 24.9947 11.8891 24.9686 13.6786C24.9686 15.4804 23.6694 16.9471 22.0063 16.9471Z"
+                                fill="white" />
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -78,86 +105,99 @@
     <section class="section3">
         <div class="container">
             <div class="parent">
-                <div class="div1">
-                    <div class="card1">
-                        <img src="./assets/images/png/section3-img1.png" alt="image">
-                        <p class="text-light font-family fw_lg fs_3xl line-height-100  pt-44">ART COLLECTION</p>
-                        <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey">Complete the art collection in
-                            full with +70 unique traits, and publish our rarity chart on
-                            our webpage.</p>
-                    </div>
+                <div class="bg_blue  border-20 cursor transition card1">
+                    <img src="./assets/images/png/section3-img1.png" alt="image" class=" d-block m-sm-0 mx-auto ">
+                    <p
+                        class="text-light font-family fw_lg fs_3xl line-height-100  pt-44 text-center text-sm-start ">
+                        ART COLLECTION</p>
+                    <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey  text-center text-sm-start">
+                        Complete the art collection in
+                        full with +70 unique traits, and publish our rarity chart on
+                        our webpage.</p>
                 </div>
-                <div class="div2">
-                    <div class="card1">
-                        <img src="./assets/images/png/section3-img2.png" alt="image">
-                        <p class="text-light font-family fw_lg fs_3xl line-height-100  pt-44">SPECIAL BULLIES</p>
-                        <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey">20 Buddybullies {out of 10k}
-                            will have a very special and ersonalized resembling of famous people who are into NFTs
-                            {those will be available after the minting}.</p>
-                    </div>
+                <div class="bg_blue border-20 cursor transition card1">
+
+                    <img src="./assets/images/png/section3-img2.png" alt="image" class="d-block m-sm-0 mx-auto">
+                    <p
+                        class="text-light font-family fw_lg fs_3xl line-height-100  pt-44 text-center text-sm-start">
+                        SPECIAL BULLIES
+                    </p>
+                    <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey  text-center text-sm-start">20
+                        Buddybullies {out of 10k}
+                        will have a very special and ersonalized resembling of famous people who are into NFTs
+                        {those will be available after the minting}.</p>
                 </div>
-                <div class="div3">
-                    <div class="card1">
-                        <img src="./assets/images/png/section3-img3.png" alt="image">
-                        <p class="text-light font-family fw_lg fs_3xl line-height-100  pt-44">BREEDING</p>
-                        <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey">Our BuddyBullies will not come
-                            alone, as we will announce the breeding function after the minting and you will be able
-                            to get a PuppyBully { for free}.</p>
-                    </div>
+                <div class="bg_blue border-20 cursor transition card1">
+
+                    <img src="./assets/images/png/section3-img3.png" alt="image" class="d-block m-sm-0 mx-auto">
+                    <p class="text-light font-family fw_lg fs_3xl line-height-100  pt-44 text-center text-sm-start">
+                        BREEDING</p>
+                    <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey  text-center text-sm-start">Our
+                        BuddyBullies will not come
+                        alone, as we will announce the breeding function after the minting and you will be able
+                        to get a PuppyBully { for free}.</p>
+
                 </div>
-                <div class="div4">
-                    <div class="card1">
-                        <img src="./assets/images/png/section3-img4.png" alt="image">
-                        <p class="text-light font-family fw_lg fs_3xl line-height-100  pt-44">DIGITALMARKETS</p>
-                        <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey">Communicate with all the
-                            digital markets available in the Solana NFT world for getting our collection successfully
-                            listed.</p>
-                    </div>
+                <div class="bg_blue border-20 cursor transition card1">
+
+                    <img src="./assets/images/png/section3-img4.png" alt="image" class="d-block m-sm-0 mx-auto">
+                    <p class="text-light font-family fw_lg fs_3xl line-height-100  pt-44 text-center text-sm-start">
+                        DIGITALMARKETS</p>
+                    <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey text-center text-sm-start">
+                        Communicate with all the
+                        digital markets available in the Solana NFT world for getting our collection successfully
+                        listed.</p>
+
                 </div>
-                <div class="div5">
-                    <div class="card1">
-                        <img src="./assets/images/png/section3-img5.png" alt="image">
-                        <p class="text-light font-family fw_lg fs_3xl line-height-100  pt-44">MERCH</p>
-                        <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey">The team is working on the
-                            future merch thet will be available for the community members directly on our webpage.</p>
-                    </div>
+                <div class="bg_blue border-20 cursor transition card1">
+
+                    <img src="./assets/images/png/section3-img5.png" alt="image" class="d-block m-sm-0 mx-auto">
+                    <p class="text-light font-family fw_lg fs_3xl line-height-100  pt-44 text-center text-sm-start">
+                        MERCH</p>
+                    <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey text-center text-sm-start">The team
+                        is working on the
+                        future merch thet will be available for the community members directly on our webpage.</p>
+
                 </div>
-                <div class="div6">
-                    <div class="card1">
-                        <img src="./assets/images/png/section3-img6.png" alt="image">
-                        <p class="text-light font-family fw_lg fs_3xl line-height-100  pt-44">CHARITY</p>
-                        <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey">We will be giving 30% of the
-                            royalties to charity permanently
-                            and we will keep spending on marketing, promotions and partnership.50% of the riyalties will
-                            go backto the community as rewards.</p>
-                    </div>
+                <div class="bg_blue border-20 cursor transition card1">
+
+                    <img src="./assets/images/png/section3-img6.png" alt="image" class="d-block m-sm-0 mx-auto">
+                    <p class="text-light font-family fw_lg fs_3xl line-height-100  pt-44 text-center text-sm-start">
+                        CHARITY</p>
+                    <p class="font-family line-height-150 fw_sm fs_sm text_dark_grey text-center text-sm-start">We will
+                        be giving 30% of the
+                        royalties to charity permanently
+                        and we will keep spending on marketing, promotions and partnership.50% of the riyalties will
+                        go backto the community as rewards.</p>
+
                 </div>
             </div>
         </div>
     </section>
     <section class="section4">
-        <h2 class="text-light fw_lg fs_4xl line-height-136 font-family  d-flex justify-content-center">Roadmap</h2>
         <div class="container mt-63">
+            <h2 class="text-light fw_lg fs_4xl line-height-136 font-family  d-flex justify-content-center">Roadmap</h2>
             <div class="timeline">
                 <div class="box1 right">
                     <div class="content">
                         <p class="font-family fw_lg fs_3xl text-white">Q-4, 2021</p>
-                        <p class="font-family fw_sm fs_sm text_dark_grey">Blandit sed penatibus elit tortor fermentum velit
+                        <p class="font-family fw_sm fs_sm text_dark_grey">Blandit sed penatibus elit tortor fermentum
+                            velit
                             donec. Id eleifend volutpat dolor netus auctor
                             at. Volutpat sed auctor
                             non in commodo, felis viverra risus tristique.</p>
                     </div>
                 </div>
-                <div class="box1 left">
-                    <div class="content">
+                <div class="box1 left d-flex align-items-md-center justify-content-md-end">
+                    <div class="content text-md-end text-start">
                         <p class="font-family fw_lg fs_3xl text-white">Q-1, 2022</p>
-                        <p class="font-family fw_sm fs_sm text_dark_grey">Blandit sed penatibus elit tortor fermentum velit
+                        <p class="font-family fw_sm fs_sm text_dark_grey">Blandit sed penatibus elit tortor fermentum
+                            velit
                             donec. Id eleifend volutpat dolor netus auctor
                             at. Volutpat sed auctor
                             non in commodo, felis viverra risus tristique.</p>
-                        </div>
+                    </div>
                 </div>
-            </div>
             </div>
             <div class="box1 position-relative right pb-0">
                 <div class="content">
@@ -169,18 +209,19 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
     <section class="section5 pt-140">
-        <p class="font-family fw_md fs_3xl alert-dangerline-height-150 text-white max-w-768 text-center mx-auto">And
-            this just the begining , the team is working on more suprises for our community. Buddybullies stronger
-            together !!</p>
-            <p class="font-family line-height-136  fw_lg fs_4xl text-light text-center mt-110 mb-5">FAQs</p>
         <div class="container">
+            <p class="font-family fw_md fs_3xl line-height-150 text-white max-w-768 text-center mx-auto">And
+                this just the begining , the team is working on more suprises for our community. Buddybullies stronger
+                together !!</p>
+            <p class="font-family line-height-136  fw_lg fs_4xl text-light text-center mt-110 mb-5">FAQs</p>
             <div class="accordion-container">
                 <div class="accordion-item">
                     <div class="accordion-header bg_accordian_header text-light font-family fw_md fs_lg">
                         What's the blockchain the buddybullies call home?
-                        
+
                         <img src="./assets/images/svg/accordian-arrow.svg" alt="arrow" class="accordion-arrow">
                     </div>
                     <div class="accordion-content">
@@ -194,7 +235,7 @@
                 <div class="accordion-item">
                     <div class="accordion-header bg_accordian_header text-light font-family fw_md fs_lg">
                         What's the blockchain the buddybullies call home?
-                    
+
                         <img src="./assets/images/svg/accordian-arrow.svg" alt="arrow" class="accordion-arrow">
                     </div>
                     <div class="accordion-content">
@@ -208,7 +249,7 @@
                 <div class="accordion-item">
                     <div class="accordion-header bg_accordian_header text-light font-family fw_md fs_lg">
                         What's the blockchain the buddybullies call home?
-                    
+
                         <img src="./assets/images/svg/accordian-arrow.svg" alt="arrow" class="accordion-arrow">
                     </div>
                     <div class="accordion-content">
@@ -236,62 +277,101 @@
             </div>
         </div>
     </section>
-    <section class="section6 mt-120">
-        <h2 class="font-family line-height-136 text-light fw_lg fs_4xl text-center mb-4">Our Team</h2>
-        <div class="d-flex justify-content-center gap-5">
-            <div>
-                <img src="./assets/images/png/section6-img1.png" alt="image">
-                <p class="font-family text-light fw_lg fs_3xl line-height-136 text-center mt-4">Prime Bullister</p>
-                <p class="font-family text-light fw_sm fs_md line-height-136 text-center">Pruduct Designer</p>
-            </div>
-            <div>
-                <img src="./assets/images/png/section6-img2.png" alt="image">
-                <p class="font-family text-light fw_lg fs_3xl line-height-136 text-center mt-4">Solvador Bulli</p>
-                <p class="font-family text-light fw_sm fs_md line-height-136 text-center">Artist</p>
-            </div>
-            <div>
-                <img src="./assets/images/png/section6-img3.png" alt="image">
-                <p class="font-family text-light fw_lg fs_3xl line-height-136 text-center mt-4">Meta Bully</p>
-                <p class="font-family text-light fw_sm fs_md line-height-136 text-center">Developer</p>
+    <section class="section6 mt-120 mb-60">
+        <div class="container">
+            <p class="font-family fw_lg fs_4xl text-white line-height-136 text-center">
+                Our Team
+            </p>
+            <div class="parent1">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/images/png/section6-img1.png" alt="image" class="w-100 ">
+                    <p class="font-family fw_lg fs_3xl line-height-136 text-white mt-30 white-space">
+                        Prime Bullister
+                    </p>
+                    <p class="font-family fw_sm fs_md text-white line-height-136">
+                        Pruduct Designer
+                    </p>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center ">
+                    <img src="./assets/images/png/section6-img2.png" alt="image" class="w-100">
+                    <p class="font-family fw_lg fs_3xl line-height-136 text-white mt-30 white-space">
+                        Solvador Bulli
+                    </p>
+                    <p class="font-family fw_sm fs_md text-white line-height-136">
+                        Artist
+                    </p>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/images/png/section6-img3.png" alt="image" class="w-100">
+                    <p class="font-family fw_lg fs_3xl line-height-136 text-white mt-30">
+                        Meta Bully
+                    </p>
+                    <p class="font-family fw_sm fs_md text-white line-height-136">
+                        Developer
+                    </p>
+                </div>
             </div>
         </div>
-
     </section>
     <footer class="footer-bg pb-5">
-        <h2 class="line-height-124 font-family text-light fw_lg fs_4xl text-center pt-100">JOIN US</h2>
         <div class="container">
-
+            <h2 class="line-height-124 font-family text-light fw_lg fs_4xl text-center">JOIN US</h2>
             <div class="row justify-content-between mt-108">
-                <div class="col-4">
-                    <p class="font-family text-light fw_md fs_3xl line-height-124">LOGO</p>
-                    <p class="text_grey font-family line-height-100 fw_sm fs_sm">Aenean arcu sed rhoncus sapien euismod
+                <div class="col-md-4 col-12">
+                    <a href="" class="text-light fw_md fs_3xl line-height-124 cursor">LOGO</a>
+                    <p class="text_grey font-family line-height-100 fw_sm fs_sm mt-4">Aenean arcu sed rhoncus sapien
+                        euismod
                         cursus morbi lacus, blandit. Placerat tortor duis fames cras
                         pellentesque dui
                         adipiscing neque gravida. Sociis neque consectetur id quis pharetra.</p>
-                    <a href="" class="font-family text-light line-height-100 fw_sm fs_sm">Email@gmail.com</a>
+                    <a href="" class="font-family text-light line-height-100 fw_sm fs_sm email">Email@gmail.com</a>
                 </div>
-                <div class="col-5">
+                <div class="col-md-5 col-12">
                     <div class="d-flex flex-row justify-content-between">
                         <div class="d-flex flex-column">
                             <p class="font-family line-height150 fw_md fs_sm text-light">Resources</p>
-                            <a href="" class="fw_sm fs_sm font-family line-height-136 text-light mb-2">Roadmap</a>
-                            <a href="" class="fw_sm fs_sm font-family line-height-136 text-light mb-2">FAQs</a>
-                            <a href="" class="fw_sm fs_sm font-family line-height-136 text-light mb-2">Mint your
+                            <a href=""
+                                class="fw_sm fs_sm font-family line-height-136 text-light mb-2 footer-content transition">Roadmap</a>
+                            <a href=""
+                                class="fw_sm fs_sm font-family line-height-136 text-light mb-2 footer-content transition">FAQs</a>
+                            <a href=""
+                                class="fw_sm fs_sm font-family line-height-136 text-light mb-2 footer-content transition">Mint
+                                your
                                 Bully</a>
                         </div>
                         <div>
                             <p class="font-family line-height150 fw_md fs_sm text-light">Community</p>
                             <div class="d-flex justify-content-between">
-                                <a href=""><img src="./assets/images/svg/footer-instagram.svg" alt="instagram"></a>
-                                <a href=""><img src="./assets/images/svg/footer-twitter.svg" alt="twiter"></a>
-                                <a href=""><img src="./assets/images/svg/footer-discord.svg" alt="discord"></a>
+
+
+                                <svg class=" icon" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.77751 5.85189C7.16534 5.85189 5.84969 7.16754 5.84969 8.7797C5.84969 10.3919 7.16534 11.7075 8.77751 11.7075C10.3897 11.7075 11.7053 10.3919 11.7053 8.7797C11.7053 7.16754 10.3897 5.85189 8.77751 5.85189ZM17.5588 8.7797C17.5588 7.56729 17.5697 6.36585 17.5016 5.15563C17.4336 3.74993 17.1129 2.50236 16.085 1.47444C15.0548 0.444328 13.8095 0.125849 12.4038 0.0577599C11.1914 -0.0103288 9.98993 0.000653309 8.7797 0.000653309C7.56729 0.000653309 6.36585 -0.0103288 5.15563 0.0577599C3.74993 0.125849 2.50236 0.446524 1.47444 1.47444C0.444328 2.50456 0.125849 3.74993 0.0577599 5.15563C-0.0103288 6.36805 0.000653309 7.56948 0.000653309 8.7797C0.000653309 9.98993 -0.0103288 11.1936 0.0577599 12.4038C0.125849 13.8095 0.446525 15.057 1.47444 16.085C2.50456 17.1151 3.74993 17.4336 5.15563 17.5016C6.36805 17.5697 7.56948 17.5588 8.7797 17.5588C9.99212 17.5588 11.1936 17.5697 12.4038 17.5016C13.8095 17.4336 15.057 17.1129 16.085 16.085C17.1151 15.0548 17.4336 13.8095 17.5016 12.4038C17.5719 11.1936 17.5588 9.99212 17.5588 8.7797ZM8.77751 13.2845C6.28458 13.2845 4.27267 11.2726 4.27267 8.7797C4.27267 6.28678 6.28458 4.27487 8.77751 4.27487C11.2704 4.27487 13.2823 6.28678 13.2823 8.7797C13.2823 11.2726 11.2704 13.2845 8.77751 13.2845ZM13.4668 5.14245C12.8848 5.14245 12.4148 4.67242 12.4148 4.09037C12.4148 3.50832 12.8848 3.03829 13.4668 3.03829C14.0489 3.03829 14.5189 3.50832 14.5189 4.09037C14.5191 4.22858 14.492 4.36547 14.4392 4.49319C14.3864 4.62091 14.3089 4.73696 14.2112 4.83469C14.1134 4.93242 13.9974 5.00991 13.8697 5.06272C13.7419 5.11553 13.6051 5.14262 13.4668 5.14245Z"
+                                        fill="white" />
+                                </svg>
+
+                                <svg class=" icon" width="20" height="16" viewBox="0 0 20 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.0643 2.10455C18.3771 2.40903 17.639 2.61476 16.8629 2.70775C17.6636 2.22864 18.2627 1.47457 18.5483 0.586248C17.796 1.03309 16.9727 1.34761 16.1141 1.51615C15.5367 0.899671 14.7719 0.491056 13.9385 0.35375C13.1051 0.216443 12.2497 0.358125 11.5051 0.756801C10.7604 1.15548 10.1682 1.78884 9.82046 2.55856C9.47268 3.32827 9.38874 4.19128 9.58169 5.01359C8.05737 4.93705 6.56618 4.54086 5.20489 3.85072C3.84361 3.16057 2.64264 2.19191 1.67995 1.00759C1.35078 1.5754 1.16151 2.23375 1.16151 2.93488C1.16114 3.56606 1.31657 4.18757 1.61402 4.74427C1.91146 5.30097 2.34172 5.77565 2.86661 6.12618C2.25787 6.10681 1.66257 5.94233 1.13024 5.64642V5.69579C1.13018 6.58105 1.43639 7.43906 1.99693 8.12425C2.55747 8.80943 3.3378 9.27958 4.20551 9.45492C3.64081 9.60775 3.04876 9.63026 2.47408 9.52075C2.71889 10.2825 3.19578 10.9486 3.83797 11.4258C4.48015 11.903 5.2555 12.1674 6.05545 12.1821C4.69748 13.2481 3.02041 13.8264 1.294 13.8238C0.988185 13.8239 0.682629 13.8061 0.378906 13.7703C2.13131 14.8971 4.17123 15.495 6.2546 15.4927C13.3071 15.4927 17.1625 9.6516 17.1625 4.58567C17.1625 4.42108 17.1584 4.25485 17.151 4.09027C17.9009 3.54794 18.5482 2.87636 19.0626 2.10701L19.0643 2.10455Z"
+                                        fill="white" />
+                                </svg>
+
+                                <svg class=" icon" width="18" height="14" viewBox="0 0 18 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15.2477 1.28575C14.1042 0.770043 12.8784 0.388871 11.5967 0.172127C11.5852 0.169935 11.5734 0.171348 11.5629 0.176168C11.5523 0.180989 11.5435 0.188979 11.5376 0.199033C11.3807 0.474822 11.2058 0.834319 11.0832 1.11833C9.72376 0.915215 8.34169 0.915215 6.98224 1.11833C6.84572 0.803572 6.69177 0.496664 6.5211 0.199033C6.51532 0.188856 6.50657 0.180684 6.49602 0.17561C6.48547 0.170535 6.47362 0.168799 6.46206 0.170632C5.18102 0.387377 3.95529 0.768548 2.81103 1.285C2.80119 1.28913 2.79284 1.29617 2.78712 1.30518C0.461221 4.72451 -0.176307 8.05939 0.136851 11.3524C0.137723 11.3605 0.140226 11.3683 0.144209 11.3753C0.148193 11.3824 0.153572 11.3886 0.160021 11.3935C1.51758 12.3819 3.03176 13.1348 4.63916 13.6208C4.65037 13.6242 4.66235 13.6242 4.67355 13.6207C4.68475 13.6173 4.69464 13.6105 4.70194 13.6013C5.04724 13.1379 5.35517 12.6484 5.61825 12.1342C5.63394 12.1043 5.619 12.0684 5.58761 12.0565C5.10479 11.8746 4.63698 11.6552 4.18848 11.4002C4.18042 11.3956 4.17363 11.3891 4.16872 11.3812C4.1638 11.3734 4.16092 11.3644 4.16033 11.3551C4.15974 11.3459 4.16145 11.3366 4.16532 11.3282C4.16919 11.3198 4.1751 11.3124 4.1825 11.3068C4.27667 11.2373 4.37085 11.1648 4.46053 11.0923C4.46861 11.0858 4.47833 11.0816 4.48862 11.0803C4.49892 11.079 4.50937 11.0806 4.51883 11.0848C7.45385 12.4032 10.6325 12.4032 13.5332 11.0848C13.5426 11.0803 13.5532 11.0786 13.5637 11.0797C13.5741 11.0809 13.584 11.085 13.5922 11.0916C13.6819 11.1648 13.7753 11.2373 13.8702 11.3068C13.8777 11.3123 13.8837 11.3195 13.8877 11.3279C13.8917 11.3363 13.8936 11.3455 13.8931 11.3547C13.8927 11.364 13.8899 11.373 13.8852 11.3809C13.8804 11.3889 13.8737 11.3955 13.8658 11.4002C13.4188 11.6573 12.9539 11.8748 12.4659 12.0557C12.4584 12.0584 12.4516 12.0627 12.4459 12.0683C12.4401 12.0739 12.4357 12.0806 12.4328 12.088C12.4299 12.0954 12.4286 12.1034 12.429 12.1114C12.4295 12.1193 12.4316 12.1271 12.4352 12.1342C12.7043 12.6476 13.0122 13.1364 13.3508 13.6006C13.3578 13.6101 13.3676 13.6172 13.3789 13.621C13.3901 13.6247 13.4022 13.6249 13.4136 13.6215C15.0237 13.1369 16.5404 12.3836 17.8994 11.3935C17.9061 11.3889 17.9116 11.3829 17.9158 11.3759C17.9199 11.369 17.9225 11.3612 17.9234 11.3532C18.2971 7.54593 17.297 4.23796 15.2709 1.30667C15.2659 1.29715 15.2577 1.28972 15.2477 1.28575ZM6.05697 9.34715C5.17355 9.34715 4.44484 8.54818 4.44484 7.56835C4.44484 6.58777 5.15935 5.78955 6.05697 5.78955C6.96132 5.78955 7.6833 6.59449 7.6691 7.56835C7.6691 8.54893 6.95459 9.34715 6.05697 9.34715ZM12.0174 9.34715C11.1333 9.34715 10.4053 8.54818 10.4053 7.56835C10.4053 6.58777 11.1191 5.78955 12.0174 5.78955C12.9218 5.78955 13.6438 6.59449 13.6296 7.56835C13.6296 8.54893 12.9225 9.34715 12.0174 9.34715Z"
+                                        fill="white" />
+                                </svg>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"

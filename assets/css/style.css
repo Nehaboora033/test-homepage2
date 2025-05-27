@@ -44,6 +44,10 @@
     text-wrap: nowrap !important;
 }
 
+.white-space {
+    white-space: nowrap;
+}
+
 /* line-height-property */
 .line-height-124 {
     line-height: 124px;
@@ -69,7 +73,6 @@
     line-height: 124%;
 }
 
-
 .header-button {
     padding: 16px 40px;
     border-radius: 45.5px;
@@ -85,31 +88,47 @@ s {
     padding: 10px 20px;
 }
 
-.section2-button:hover {
-    scale: 1.04;
-    transition: scale 100ms linear;
 
+
+.card1 {
+    min-height: 350px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 20px;
+}
+
+.section3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section3 p {
+    white-space: normal !important;
 }
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
-.card1 {
-    max-width: 426px;
-    height: 511px;
-    border-radius: 20px;
-    padding: 40px;
-    background-color: #031227;
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.border-20 {
+    border-radius: 30px;
 }
 
 .section3 {
     padding-top: 125px;
-    padding-bottom: 130px;
+    padding-bottom: 100px;
 }
 
 .timeline {
@@ -156,19 +175,17 @@ s {
     left: 50%;
 }
 
+
 .content {
     position: relative;
     border-radius: 6px;
     gap: 24px;
+    max-width: 405px;
 }
+
 .right::after {
     left: -22px;
 }
-
-
-
-
-
 
 .footer-bg {
     background-image: url(/assets/images/png/footer-bg.png);
@@ -238,8 +255,6 @@ s {
     margin-top: 108px !important;
 }
 
-
-
 /* padding property */
 .pt-265 {
     padding-top: 265px;
@@ -249,8 +264,8 @@ s {
     padding-top: 140px;
 }
 
-.mb-91 {
-    margin-bottom: 91px;
+.mb-200 {
+    margin-bottom: 200px;
 }
 
 .pt-28 {
@@ -259,10 +274,6 @@ s {
 
 .pt-44 {
     padding-top: 44px;
-}
-
-.pt-100 {
-    padding-top: 100px;
 }
 
 .mt-120 {
@@ -277,6 +288,14 @@ s {
     margin-bottom: 47px;
 }
 
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
 /* max-width */
 .max-w-547 {
     max-width: 547px;
@@ -286,24 +305,33 @@ s {
     max-width: 768px;
 }
 
+
+
+
+
 @media(min-width:576px) {
     .parent {
         display: grid;
-        width: 100;
         grid-template-columns: repeat(2, 1fr);
+    }
 
+    .parent1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+    }
+    .card1{
+        min-height: 511px;
     }
 }
 
 @media(min-width:768px) {
-
-
-
     /* hover effect */
 
     .header-button:hover {
         scale: 1.06;
-
     }
 
     .online-platform:hover {
@@ -317,36 +345,93 @@ s {
     .nav-content:hover {
         scale: 1.09;
         text-decoration: underline !important;
-        transition: all 100ms linear;
 
     }
 
     nav a:hover {
-        scale: 1.1;
+        scale: 1.3;
+    }
 
+    .footer-content:hover {
+        scale: 1.09;
+        text-decoration: underline !important;
+    }
+
+    .email:hover {
+        scale: 1.09;
+        text-decoration: underline !important;
+    }
+
+    .icon:hover {
+        scale: 1.2;
+    }
+
+    .icon:hover path {
+        fill: #009DFF !important;
+    }
+
+    .section2-button:hover {
+        scale: 1.2;
+    }
+
+    .card1:hover {
+        scale: 1.05;
+    }
+
+    .card1 {
+        padding: 40px;
+    }
+
+    .parent1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 50px;
+        grid-row-gap: 25px;
     }
 }
-
 
 @media(min-width:992px) {
 
     .parent {
         display: grid;
-        width: 100%;
         grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
 
     }
-
-
 
     .gap-80 {
         gap: 80px;
     }
 
+    .section3 {
+        padding-bottom: 130px;
+    }
 }
 
-@media(min-width:1200px) {}
+@media(max-width:768px) {
+    .timeline:after {
+        left: 20px;
+    }
 
+    .right {
+        left: 20px;
+    }
+
+    .left {
+        left: 22px;
+    }
+
+    .left:after {
+        left: -25px;
+    }
+
+    .box1 {
+        width: 90%;
+        padding: 0 31px 110px 31px;
+    }
+}
 
 @media(max-width:768px) {
     .menu-icon {
