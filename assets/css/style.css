@@ -86,6 +86,7 @@ s {
     border-radius: 45.5px;
     padding: 10px 20px;
 }
+
 .card1 {
     min-height: 350px;
     word-wrap: break-word;
@@ -170,6 +171,7 @@ s {
 .right {
     left: 50%;
 }
+
 .content {
     position: relative;
     border-radius: 6px;
@@ -258,8 +260,8 @@ s {
     padding-top: 140px;
 }
 
-.mb-200 {
-    margin-bottom: 200px;
+.pb-200 {
+    padding-bottom: 200px;
 }
 
 .pt-28 {
@@ -298,9 +300,15 @@ s {
 .max-w-768 {
     max-width: 768px;
 }
-.max-w-336{
+
+.max-w-336 {
     max-width: 336px;
 }
+
+.scrolled {
+    background-color: #031227;
+}
+
 @media(min-width:576px) {
     .parent {
         display: grid;
@@ -314,7 +322,8 @@ s {
         grid-column-gap: 50px;
         grid-row-gap: 50px;
     }
-    .card1{
+
+    .card1 {
         min-height: 511px;
     }
 }
@@ -333,6 +342,8 @@ s {
     .gap-md-50 {
         gap: 50px;
     }
+
+
 
     .nav-content:hover {
         scale: 1.09;
