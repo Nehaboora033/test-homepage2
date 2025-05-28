@@ -3,7 +3,6 @@
 * {
     text-decoration: none !important;
     list-style-type: none !important;
-
 }
 
 .header-background {
@@ -87,9 +86,6 @@ s {
     border-radius: 45.5px;
     padding: 10px 20px;
 }
-
-
-
 .card1 {
     min-height: 350px;
     word-wrap: break-word;
@@ -174,8 +170,6 @@ s {
 .right {
     left: 50%;
 }
-
-
 .content {
     position: relative;
     border-radius: 6px;
@@ -304,11 +298,9 @@ s {
 .max-w-768 {
     max-width: 768px;
 }
-
-
-
-
-
+.max-w-336{
+    max-width: 336px;
+}
 @media(min-width:576px) {
     .parent {
         display: grid;
@@ -345,7 +337,6 @@ s {
     .nav-content:hover {
         scale: 1.09;
         text-decoration: underline !important;
-
     }
 
     nav a:hover {
@@ -398,7 +389,6 @@ s {
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 24px;
         grid-row-gap: 24px;
-
     }
 
     .gap-80 {
