@@ -89,8 +89,8 @@ s {
 
 .card1 {
     min-height: 350px;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    /* word-wrap: break-word;
+    overflow-wrap: break-word; */
     padding: 20px;
 }
 
@@ -99,9 +99,9 @@ s {
     height: auto;
 }
 
-.section3 p {
+/* .section3 p {
     white-space: normal !important;
-}
+} */
 
 .parent {
     display: grid;
